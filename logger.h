@@ -21,7 +21,7 @@
 #define LOGGER_COLOR_YELLOW "\033[33m"
 #define LOGGER_COLOR_BLUE "\033[34m"
 
-const char* g_levelStrings[] = {
+static const char* g_levelStrings[] = {
     "[DEBUG]",
     "[INFO]",
     "[WARNING]",
@@ -29,7 +29,7 @@ const char* g_levelStrings[] = {
     "[FATAL]"
 };
 
-const char* g_levelColors[] = {
+static const char* g_levelColors[] = {
     LOGGER_COLOR_BLUE,
     LOGGER_COLOR_GREEN,
     LOGGER_COLOR_YELLOW,
